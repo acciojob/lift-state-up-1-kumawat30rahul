@@ -3,11 +3,11 @@ import React from 'react'
 function ChildComponent({onBtnClick,showModal}) {
   return (
     <div>
-        ChildComponent
+        <h2>ChildComponent</h2>
     <button onClick={()=>onBtnClick(!showModal)}>click me</button> 
     {showModal && 
         <div>
-            <h1>Model content</h1>
+            <h3>Model content</h3>
             <p>this is a modal content</p>
         </div>
     }
