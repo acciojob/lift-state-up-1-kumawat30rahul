@@ -8,7 +8,7 @@ function ChildComponent({onBtnClick,showModal}) {
     {showModal && 
         <div>
             <h3>Modal Content</h3>
-            <p>this is a modal content</p>
+            <p>This is the modal content.</p>
         </div>
     }
      </div>
