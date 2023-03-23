@@ -7,7 +7,7 @@ function MyComponent() {
    
   return (
     <div className='parent'>
-        <h1>Parent COmponent</h1>
+        <h1>Parent Component</h1>
         <ChildComponent onBtnClick={setShowModal} showModal={showModal} />
     </div>
   )
