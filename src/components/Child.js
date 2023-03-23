@@ -7,7 +7,7 @@ function ChildComponent({onBtnClick,showModal}) {
     <button onClick={()=>onBtnClick(!showModal)}>click me</button> 
     {showModal && 
         <div>
-            <h3>Model Content</h3>
+            <h3>Modal Content</h3>
             <p>this is a modal content</p>
         </div>
     }
